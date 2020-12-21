@@ -4,14 +4,24 @@ Lightweight library offering pleasant chat message formatting for Bukkit plugins
 
 Installation
 --------
-Use Maven. Add the Fanciful dependency entry to your `pom.xml`.
+Use Maven. Add the JitPack repo to your `pom.xml`.
 
 ```xml
-<dependency>
-  <groupId>mkremins</groupId>
-  <artifactId>fanciful</artifactId>
-  <version>0.4.0-SNAPSHOT</version>
-</dependency>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+```
+
+And add the fanciful dependency.
+
+```xml
+		<dependency>
+			<groupId>com.github.kaboompvp</groupId>
+			<artifactId>fanciful</artifactId>
+			<version>0.4.0</version>
+			</dependency>
+        <dependency>
 ```
 
 As of [October 2017](https://github.com/mkremins/fanciful/issues/83), the Maven repository that formerly hosted Fanciful artifacts has been shut down. You could continue using Fanciful by cloning this GitHub repository, building Fanciful as a JAR, and [installing it locally](http://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html), but this is not recommended unless you know what you're doing.
