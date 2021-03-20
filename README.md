@@ -16,12 +16,11 @@ Use Maven. Add the JitPack repo to your `pom.xml`.
 And add the fanciful dependency.
 
 ```xml
-		<dependency>
-			<groupId>com.github.kaboompvp</groupId>
-			<artifactId>fanciful</artifactId>
-			<version>0.4.0</version>
-			</dependency>
-        <dependency>
+	<dependency>
+	    <groupId>com.github.kaboompvp</groupId>
+	    <artifactId>fanciful</artifactId>
+	    <version>0.4.0</version>
+	</dependency>
 ```
 
 As of [October 2017](https://github.com/mkremins/fanciful/issues/83), the Maven repository that formerly hosted Fanciful artifacts has been shut down. You could continue using Fanciful by cloning this GitHub repository, building Fanciful as a JAR, and [installing it locally](http://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html), but this is not recommended unless you know what you're doing.
