@@ -17,7 +17,7 @@ And add the fanciful dependency.
 
 ```xml
 	<dependency>
-	    <groupId>com.github.kaboompvp</groupId>
+	    <groupId>com.github.kaboomb52</groupId>
 	    <artifactId>fanciful</artifactId>
 	    <version>0.4.0</version>
 	</dependency>
